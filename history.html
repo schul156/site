@@ -1,0 +1,92 @@
+<html>
+  <head>
+    <title>VOCALOID</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/articles.css" />
+    <!-- CSS and javascript for Timeline.JS -->
+    <link
+      title="timeline-styles"
+      rel="stylesheet"
+      href="https://cdn.knightlab.com/libs/timeline3/latest/css/timeline.css"
+    />
+    <script src="https://cdn.knightlab.com/libs/timeline3/latest/js/timeline.js"></script>
+  </head>
+  <body>
+    <div class="navbar">
+      <div>
+        <button onclick="showMenu()">
+          <img src="imgs/menu-icon.png" height="40px"
+        </button>
+      </div>
+      <div><a href="index.html">V O C A L O I D</a></div>
+      <div>
+        <button onclick="nextPage()">
+          <img src="imgs/arrowicon.jpg" alt="> History" height="40" />
+        </button>
+      </div>
+      <div id="navmenu">
+        <h1><a href="about.html">ABOUT</a></h1>
+        <h1><a href="history.html">HISTORY</a></h1>
+        <h1><a href="music.html">MUSIC</a></h1>
+        <h1><a href="artists.html">ARTISTS</a></h1>
+        <h1><a href="personas.html">PERSONAS</a></h1>
+      </div>
+    </div>
+    <script>
+      function showMenu() {
+        var x = document.getElementById("navmenu");
+        if (x.style.left === "0px") {
+          x.style.left = "100vw";
+        } else {
+          x.style.left = "0px";
+        }
+      }
+      function nextPage() {
+          const pages = [
+            "/vocaloid/about.html",
+            "/vocaloid/history.html",
+            "/vocaloid/music.html",
+            "/vocaloid/artists.html",
+            "/vocaloid/personas.html",
+          ];
+          var current = window.location.pathname;
+          console.log("current: ", current);
+          var index = pages.indexOf(current);
+          console.log("index: ", index, " next: ", index+1);
+          console.log("current page: ", pages[index]);
+          console.log("next page: ", pages[index+1]);
+          var page;
+          if (index === pages.length-1) {
+            page = pages[0];
+          } else {
+            page = pages[index+1];
+          }
+          console.log("changing path to:", page);
+          window.location.pathname = page;
+        }
+    </script>
+    <div class="body-container">
+      <h1 class="article-header">◇HISTORY</h1>
+      <div class="timeline-body">
+        <h2 class="about-header">Timeline</h2>
+        <div id="timeline-embed"></div>
+      </div>
+    </div>
+    <script type="text/javascript">
+      var timeline_config = {
+        width: "100%",
+        height: "600",
+        source: "timeline.json",
+        embed_id: "timeline-embed",
+        start_at_slide: "0",
+        hash_bookmark: true,
+        font: "Bevan-PotanoSans",
+        lang: "en"
+      };
+    </script>
+    <script
+      type="text/javascript"
+      src="https://cdn.knightlab.com/libs/timeline/latest/js/storyjs-embed.js"
+    ></script>
+  </body>
+</html>

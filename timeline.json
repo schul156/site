@@ -1,0 +1,277 @@
+{
+  "timeline": {
+    "headline": "VOCALOID HISTORY",
+    "type": "default",
+    "text": "",
+    "startDate": "2000,1,1",
+    "date": [
+      {
+        "startDate": "2000,1,1",
+        "headline": "Formative Years"
+      },
+      {
+        "startDate": "2000,3,1",
+        "headline": "Project Elvis",
+        "text": "<p>Yamaha begins development on a very early build of Vocaloid codenamed Project Elvis</p>"
+      },
+      {
+        "startDate": "2003,2,26",
+        "headline": "Project Daisy Announced",
+        "text": "<p>Project Daisy, another early build of Vocaloid, was announced by Hideki Kenmochi</p>"
+      },
+      {
+        "startDate": "2003,7,24",
+        "headline": "\"HISTORY OF LOGIC SYSTEM\" released",
+        "text": "<p>Electronic artist Hideki Matsutake releases the album \"HISTORY OF LOGIC SYSTEM\", containing the first released render of VOCALOID: the song \"あの素晴らしい愛をもう一度 [To Be Together Again]\" utilizes early developments of MEIKO and KAITO's voice banks</p>",
+        "asset": {
+          "media": "https://www.youtube.com/watch?v=NW-lqdlm_R0",
+          "credit": "Hideki Matsutake/Logic System",
+          "caption": "\"あの素晴しい愛をもう一度 [To Be Together Again]\""
+        }
+      },
+      {
+        "startDate": "2004,1,15",
+        "headline": "First Vocaloid products released",
+        "text": "Vocaloids LEON and LOLA were released by Zero-G, marketed as \"Virtual Soul Vocalists\""
+      },
+      {
+        "startDate": "2004,3,14",
+        "headline": "First LEON/LOLA song uploaded to Nico Nico Douga",
+        "text": "User Komadori uploaded a Vocaloid arrangement of the song \"おてんば恋娘[Beloved Tomboyish Girl]\", originally from the Touhou series, to the site Nico Nico Douga, which later became a major place of growth for many Vocaloid producers",
+        "asset": {
+          "media": "https://www.youtube.com/watch?v=xl-aPPvIZ9w",
+          "credit": "komadori",
+          "caption": "\"おてんば恋娘[Beloved Tomboyish Girl]\""
+        }
+      },
+      {
+        "startDate": "2004,12,6",
+        "headline": "First Vocaloid concert appearance",
+        "text": "Polyphony Studio featured the Vocaloid voice of MIRIAM in their performance of \"Sad Mondays\", originally by Dr. Ravi E. Dattatreya",
+        "asset": {
+          "media": "http://www.jasminemusic.com/vocaloid/mp3/Sad_Mondays_Live.mp3",
+          "credit": "Polyphony Studios",
+          "caption": "Original recording of the live appearance made by MIRIAM (note: click the image to hear it!)"
+        }
+      },
+      {
+        "startDate": "2006,7,27",
+        "headline": "First full Vocaloid album released",
+        "text": "The album \"Место под солнцем [A Place In the Sun]\" by Alexei Ustinov was released, containing vocals by LEON",
+        "asset": {
+          "media": "https://www.youtube.com/watch?v=O2fn-9xVYKA",
+          "credit": "Alexei Ustinov",
+          "caption": "\"Место под солнцем [A Place in the Sun]\""
+        }
+      },
+      {
+        "startDate": "2007,1,27",
+        "headline": "VOCALOID2 announced",
+        "text": "VOCALOID2 featured a new and improved UI, as well as a completely revamped synthesis engine which focused more on samples than voice analysis"
+      },
+      {
+        "startDate": "2007,6,6",
+        "headline": "Character Vocal Series announced",
+        "text": "Crypton Future Media announces the \"Character Vocal Series\" -- combining animated characters with voicebanks"
+      },
+      {
+        "startDate": "2007,8,31",
+        "headline": "Hatsune Miku released",
+        "text": "The first character of Crypton Future Media's Character Vocal Series, Hatsune Miku (codename CV01), was released",
+        "asset": {
+          "media": "https://www.youtube.com/watch?v=bkY_3vXuGBA",
+          "credit": "Eiji Hirasawa, eleea",
+          "caption": "First ever PV for Miku, featuring a performance of \"01_ballade\" (demo version of \"Fragments of the Stars\") by Eiji Hirasawa"
+        }
+      },
+      {
+        "startDate": "2007,11,3",
+        "headline": "First VOM@S event",
+        "text": "The first Vocaloid-centered convention, \"THE VOC@LOID M@STER\" (abbreviated as VOM@S), was held in Japan",
+        "asset": {
+          "media": "https://static.vocadb.net/img/releaseevent/mainSmall/1080.jpg?v=5",
+          "credit": "",
+          "caption": "Promotional flyer for VOM@S event 2"
+        }
+      },
+      {
+        "startDate": "2007,12,27",
+        "headline": "Kagamine Rin & Len released",
+        "text": "The next two developed characters in the Character Vocal Series, Kagamine Rin and Len (collectively CV02), were released",
+        "asset": {
+          "media": "https://www.youtube.com/watch?v=IY_CApzB3tY",
+          "credit": "SakuraLeeChan",
+          "caption": "Official demo song for Kagamine Len, \"L-Side\" (composer unknown)"
+        }
+      },
+      {
+        "startDate": "2008,1,1",
+        "headline": "Commercialization"
+      },
+      {
+        "startDate": "2008,3,16",
+        "headline": "Vocaloid racing",
+        "text": "Both Studie GLAD Racing and Team MOLA received sponsorships from Crypton Future Media in the 2008 season and as a result decorated their cars with Vocaloid likenesses; Studie GLAD featured a BMW Z4 with Hatsune Miku's likeness, and Team MOLA featured the likenesses of the Kagamine twins",
+        "asset": {
+          "media": "https://i0.wp.com/www.vocaloidism.com/wp-content/uploads/2008/11/rinlencar03.jpg",
+          "credit": "Vocaloidism",
+          "caption": "Team MOLA's Nissan Fairlady Z, adorned with the likenesses of Kagamine Rin & Len, used in the 2008 SUPER GT series"
+        }
+      },
+      {
+        "startDate": "2009,7,2",
+        "headline": "First Vocaloid video game released",
+        "text": "The first Vocaloid-themed rhythm game, \"Hatsune Miku -Project DIVA-\" is released by SEGA for the PlayStation Portable",
+        "asset": {
+          "media": "https://www.youtube.com/watch?v=-02g_YWF0qY",
+          "credit": "KevinayP, SEGA",
+          "caption": "Official Hatsune Miku -Project DIVA- release trailer"
+        }
+      },
+      {
+        "startDate": "2010,1,8",
+        "headline": "First Vocaloid arcade machine released",
+        "text": "SEGA's arcade machine department, SEGA AM2, released \"Project DIVA Arcade\", an adaptation of the PSP game",
+        "asset": {
+          "media": "https://preview.redd.it/2zr4nftwfhb71.jpg?width=1080&crop=smart&auto=webp&v=enabled&s=6516897e1a3aacdfb15bbe1b4e1d76ecffb945a2",
+          "credit": "r/somenium",
+          "caption": "Project DIVA Arcade machine, found at Round One arcade"
+        }
+      },
+      {
+        "startDate": "2010,3,9",
+        "headline": "Vocaloid makes a stage debut",
+        "text": "As a promotion for SEGA's Project DIVA game, the main Crypton Future Media Vocaloids (Hatsune Miku, Megurine Luka, and the Kagamine twins) made a live concert debut in Tokyo titled \"Miku no Hi Kanshasai 39's Giving Day\"",
+        "asset": {
+          "media": "https://www.youtube.com/watch?v=1wsQnYMHliU",
+          "credit": "VocaloidLiveConcert",
+          "caption": "Live footage of Megurine Luka performing 'Double Lariat' at 39's Giving Day"
+        }
+      },
+      {
+        "startDate": "2010,5,21",
+        "headline": "Vocaloid goes into space",
+        "text": "The Akatsuki (aka PLANET-C) venus probe was launched from the Tanegashima Space Center, which (thanks to a petition organized by JAXA) contained three illustration panels of Hatsune Miku",
+        "asset": {
+          "media": "https://www.youtube.com/watch?v=yBD10EMM3N4",
+          "credit": "Sumio Morioka",
+          "caption": "Wide-angle view of the Akatsuki launch"
+        }
+      },
+      {
+        "startDate": "2011,7,2",
+        "headline": "First Vocaloid concert in America",
+        "text": "At Anime Expo 2011, the Crypton Future Media Vocaloids made a holographic live American stage debut at the Nokia Stage in Los Angeles",
+        "asset": {
+          "media": "https://www.youtube.com/watch?v=ve-BY-pLhrU",
+          "credit": "California Conventions Blog",
+          "caption": "Live footage of Hatsune Miku's virtual debut at Anime Expo 2011"
+        }
+      },
+      {
+        "startDate": "2011,10,21",
+        "headline": "VOCALOID3 released",
+        "text": "Updates included: Support for Chinese, Korean, and Spanish; improvements to the vocal engine (as well as a \"classic\" mode for less realistic results); triphone support; and VocaListener, which uses human singing as a template to reproduce in the Vocaloid style"
+      },
+      {
+        "startDate": "2011,12,23",
+        "headline": "First Spanish-native Vocaloids released",
+        "text": "Vocaloids Bruno and Clara, the first Spanish-native voicebanks, were released",
+        "asset": {
+          "media": "https://www.youtube.com/watch?v=oDhbAoH_FWk",
+          "credit": "VNaneP",
+          "caption": "\"FIESTA\" by VNaneP, featuring Bruno and Clara"
+        }
+      },
+      {
+        "startDate": "2012,7,12",
+        "headline": "First Chinese-native Vocaloid released",
+        "text": "Vsinger (formerly VOCALOID CHINA) announced their first voicebank/character Luo Tianyi",
+        "asset": {
+          "media": "https://www.youtube.com/watch?v=R1ChAqy3vDY",
+          "credit": "Luna Safari",
+          "caption": "Luo Tianyi's official demo song, \"Step On Your Heart\" by Luna Safari"
+        }
+      },
+      {
+        "startDate": "2012,1,18",
+        "headline": "Domino's App feat. Hatsune Miku",
+        "text": "Domino's Pizza announces a marketing campaign featuring Hatsune Miku, complete with a redesigned Domino's app, scooters, and pizza boxes featuring Miku's likeness",
+        "asset": {
+          "media": "https://www.youtube.com/watch?v=yPuI4l0jK7s",
+          "credit": "Domino's Pizza Japan",
+          "caption": "Official commercial for the Domino's App feat. Hatsune Miku"
+        }
+      },
+      {
+        "startDate": "2013,7,11",
+        "headline": "Vocaloids on TV (sorta)",
+        "text": "Frederator Studios releases the pilot episode of Bee and Puppycat as part of its YouTube channel Cartoon Hangover, with the main character Puppycat being voiced by the Vocaloid Oliver",
+        "asset": {
+          "media": "https://www.youtube.com/watch?v=3XGpnZ-Gwls&pp=ygUYYmVlIGFuZCBwdXBweWNhdCB0cmFpbGVy",
+          "credit": "Frederator Studios/Cartoon Hangover",
+          "caption": "Official trailer for Bee and Puppycat"
+        }
+      },
+      {
+        "startDate": "2014,12,17",
+        "headline": "VOCALOID4 released",
+        "text": "Updates included: Adding vocal \"growl\" features; cross-synthesis (rendering of multiple vocal styles in one take); realtime input"
+      },
+      {
+        "startDate": "2017,1,1",
+        "headline": "Current Era"
+      },
+      {
+        "startDate": "2018,7,12",
+        "headline": "VOCALOID5 released",
+        "text": "Updates included: a redesigned UI; finer vocal control features"
+      },
+      {
+        "startDate": "2020,9,3",
+        "headline": "Project SEKAI released",
+        "text": "The current most popular Vocaloid game, \"Project SEKAI COLORFUL STAGE!\", was released for iOS and Android",
+        "asset": {
+          "media": "https://www.youtube.com/watch?v=P8m0NCsK-dQ&pp=ygUUaGF0c3VuZSBtaWt1IHRyYWlsZXI%3D",
+          "credit": "SEGA",
+          "caption": "Official announcement trailer for \"Project SEKAI COLORFUL STAGE!\""
+        }
+      },
+      {
+        "startDate": "2020,9,30",
+        "headline": "Charlie is released",
+        "text": "Communication robot Charlie is released, which uses VOCALOID technology to communicate and answer questions with realistic human speech",
+        "asset": {
+          "media": "https://www.youtube.com/watch?v=Mhz0-r7aSro",
+          "credit": "Yamaha Japan",
+          "caption": "Official \"Life with Charlie\" trailer"
+        }
+      },
+      {
+        "startDate": "2022,10,13",
+        "headline": "VOCALOID6 released",
+        "text": "Updates included a new VOCALOID:AI feature, which uses the assistance of AI to recreate the nuances of human vocal performance as realistically as possible"
+      },
+      {
+        "startDate": "2022,10,13",
+        "headline": "First AI Voicebank released",
+        "text": "Yamaha officially released \"AI Megpoid\", a remake of Megpoid for the new VOCALOID:AI feature",
+        "asset": {
+          "media": "https://www.youtube.com/watch?v=IFWkj2kffVQ0",
+          "credit": "SingerSongwriterJP",
+          "caption": "Official demo track for Megpoid AI"
+        }
+      },
+      {
+        "startDate": "2023,3,7",
+        "headline": "Po-uta released",
+        "text": "Yamaha releases Po-uta, a Vocaloid and collaborative effort featuring the voice of Porter Robinson",
+        "asset": {
+          "media": "https://www.youtube.com/watch?v=SqTq1P6y70Q",
+          "credit": "Porter Robinson",
+          "caption": "Official demo track for Po-uta"
+        }
+      }
+    ]
+  }
+}

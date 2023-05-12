@@ -1,0 +1,148 @@
+<html>
+  <head>
+    <title>VOCALOID</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/articles.css" />
+  </head>
+  <body>
+    <div class="navbar">
+      <div>
+        <button onclick="showMenu()">
+          <img src="imgs/menu-icon.png" height="40px"
+        </button>
+      </div>
+      <div><a href="index.html">V O C A L O I D</a></div>
+      <div>
+        <button onclick="nextPage()">
+          <img src="imgs/arrowicon-back.png" alt="> History" height="40" />
+        </button>
+      </div>
+      <div id="navmenu">
+        <h1><a href="about.html">ABOUT</a></h1>
+        <h1><a href="history.html">HISTORY</a></h1>
+        <h1><a href="music.html">MUSIC</a></h1>
+        <h1><a href="artists.html">ARTISTS</a></h1>
+        <h1><a href="personas.html">PERSONAS</a></h1>
+      </div>
+    </div>
+    <script>
+      function showMenu() {
+        var x = document.getElementById("navmenu");
+        if (x.style.left === "0px") {
+          x.style.left = "100vw";
+        } else {
+          x.style.left = "0px";
+        }
+      }
+      function nextPage() {
+        const pages = [
+          "/vocaloid/about.html",
+          "/vocaloid/history.html",
+          "/vocaloid/music.html",
+          "/vocaloid/artists.html",
+          "/vocaloid/personas.html",
+        ];
+        var current = window.location.pathname;
+        console.log("current: ", current);
+        var index = pages.indexOf(current);
+        console.log("index: ", index, " next: ", index+1);
+        console.log("current page: ", pages[index]);
+        console.log("next page: ", pages[index+1]);
+        var page;
+        if (index === pages.length-1) {
+          page = pages[0];
+        } else {
+          page = pages[index+1];
+        }
+        console.log("changing path to:", page);
+        window.location.pathname = page;
+      }
+    </script>
+    <div class="body-container">
+      <h1 class="article-header">◇PERSONAS</h1>
+        <div class="gallery-container personas">
+          <div class="gallery-slide">
+            <h3 class="artist-header">FLOWER</h3>
+            <img src="imgs/personas/V4flower-pfp.webp" height="500" />
+            <p class="subhead">Notable songs:</p>
+            <ul>
+              <li>"Traffic Jam" - Nilfruits</li>
+              <li>"VENOM" - Kairiki Bear</li>
+              <li>"Close To You (Niki cover)" - cilia/kyaami</li>
+            </ul>
+          </div>
+          <div class="gallery-slide">
+            <h3 class="artist-header">GUMI/MEGPOID</h3>
+            <img src="imgs/personas/gumi-pfp.webp" height="500"/>
+            <p class="subhead">Notable songs:</p>
+            <ul>
+              <li>"KING" - Kanaria</li>
+              <li>"Donut Hole" - Hachi</li>
+              <li>"ECHO" - Crusher</li>
+            </ul>
+          </div>
+          <div class="gallery-slide">
+            <h3 class="artist-header">HATSUNE MIKU</h3>
+            <img src="imgs/personas/miku-pfp.webp" height="500"/>
+            <p class="subhead">Notable songs:</p>
+            <ul>
+              <li>"Ghost Rule" - Deco*27</li>
+              <li>"World is Mine" - supercell</li>
+              <li>"DUNE" - Hachi</li>
+            </ul>
+          </div>
+          <div class="gallery-slide">
+            <h3 class="artist-header">KAGAMINE LEN</h3>
+            <img src="imgs/personas/Kagamine_Len.png" height="500"/>
+            <p class="subhead">Notable songs:</p>
+            <ul>
+              <li>"Gigantic OTN" - Giga</li>
+              <li>"Soundless Voice" - Hitoshizuku</li>
+              <li>"Nitrobenzene" - Owata</li>
+            </ul>
+          </div>
+          <div class="gallery-slide">
+            <h3 class="artist-header">KAGAMINE RIN</h3>
+            <img src="imgs/personas/Kagamine_Rin.png" height="500"/>
+            <p class="subhead">Notable songs:</p>
+            <ul>
+              <li>"Lost One's Weeping" - Neru</li>
+              <li>"Electric Angel" - Yasuo</li>
+              <li>"Meltdown" - iroha</li>
+            </ul>
+          </div>
+          <div class="gallery-slide">
+            <h3 class="artist-header">KAITO</h3>
+            <img src="imgs/personas/kaito-pfp.webp" height="500"/>
+            <p class="subhead">Notable songs:</p>
+            <ul>
+              <li>"Crescent Moon" - Kurousa</li>
+              <li>"Judgment of Corruption" - mothy</li>
+              <li>"FLOWER TAIL" - yuukiss</li>
+            </ul>
+          </div>
+          <div class="gallery-slide">
+            <h3 class="artist-header">KASANE TETO</h3>
+            <img src="imgs/personas/teto-pfp.webp" height="500"/>
+            <p class="subhead">Notable songs:</p>
+            <ul>
+              <li>"An Ideal Day for A Disappearance" - Death Ohagi</li>
+              <li>"Kasane Territory" - ZUN</li>
+              <li>"Ghost Light" - sasakure.UK</li>
+            </ul>
+          </div>
+          <div class="gallery-slide">
+            <h3 class="artist-header">MEGURINE LUKA</h3>
+            <img src="imgs/personas/luka-pfp.webp" height="500"/>
+            <p class="subhead">Notable songs:</p>
+            <ul>
+              <li>"The Wanderlast" - sasakure.UK</li>
+              <li>"Double Lariat" - Agoaniki</li>
+              <li>"Leia" - Yuyoyuppe</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

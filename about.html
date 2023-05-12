@@ -1,0 +1,228 @@
+<html>
+  <head>
+    <title>VOCALOID</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/articles.css" />
+  </head>
+  <body>
+    <div class="navbar">
+      <div>
+        <button onclick="showMenu()">
+          <img src="imgs/menu-icon.png" alt="x" height="40px" />
+        </button>
+      </div>
+      <div><a href="index.html">V O C A L O I D</a></div>
+      <div>
+        <button onclick="nextPage()">
+          <img src="imgs/arrowicon.jpg" alt="> History" height="40" />
+        </button>
+      </div>
+      <script>
+        function showMenu() {
+          var x = document.getElementById("navmenu");
+          if (x.style.left === "0px") {
+            x.style.left = "100vw";
+          } else {
+            x.style.left = "0px";
+          }
+        }
+        function nextPage() {
+          const pages = [
+            "/vocaloid/about.html",
+            "/vocaloid/history.html",
+            "/vocaloid/music.html",
+            "/vocaloid/artists.html",
+            "/vocaloid/personas.html",
+          ];
+          var current = window.location.pathname;
+          console.log("current: ", current);
+          var index = pages.indexOf(current);
+          console.log("index: ", index, " next: ", index+1);
+          console.log("current page: ", pages[index]);
+          console.log("next page: ", pages[index+1]);
+          var page;
+          if (index === pages.length-1) {
+            page = pages[0];
+          } else {
+            page = pages[index+1];
+          }
+          console.log("changing path to:", page);
+          window.location.pathname = page;
+        }
+      </script>
+      <div id="navmenu">
+        <h1><a href="about.html">ABOUT</a></h1>
+        <h1><a href="history.html">HISTORY</a></h1>
+        <h1><a href="music.html">MUSIC</a></h1>
+        <h1><a href="artists.html">ARTISTS</a></h1>
+        <h1><a href="personas.html">PERSONAS</a></h1>
+      </div>
+    </div>
+    <div class="body-container">
+      <h1 class="article-header">◇ABOUT</h1>
+      <div class="about-body">
+        <h2 class="about-header">What is a Vocaloid?</h2>
+        <div class="grid">
+          <div class="section">
+            <h3 class="section-header">Definitions</h3>
+            <p class="section-text">
+              As a term, "Vocaloid" has a wide range of definitions. The term
+              originated as the name of a software developed by Yamaha starting
+              in early 2000, which aimed to replicate the sounds of the human
+              voice through means of vocal synthesis (which will be explained in
+              more detail later). However, the success of the software has seen
+              its name take on various other meanings. Not only has "Vocaloid"
+              become a blanket term for vocal synthesis engines in general, but
+              it has also been used to describe the various avatars of its
+              voicebanks, as well as a blended genre of music due to its unique
+              sound. The goal of this site is to encompass all facets of what
+              defines the term "Vocaloid".
+            </p>
+          </div>
+          <div class="section">
+            <h3 class="section-header">Software</h3>
+            <p class="section-text">
+              As a piece of software, VOCALOID is described as a vocal synthesis
+              engine. Its main goal is to replicate the sound and capabilities
+              of the human voice to "sing" melodies over music. This is achieved
+              by combining synthesizer software, which allows only for pitch and
+              effect modulation, with specially recorded sets of vocal samples
+              (known as voice banks) that can be used to interpret the lyrics of
+              each note. With each new version of VOCALOID, more and more
+              options for manipulating these samples to sound realistic are
+              added. As an example, the most recent release VOCALOID 6 saw the
+              addition of the VOCALOID:AI feature, which uses data gathered from
+              deep learning algorithms trained on the performances of human
+              singers to replicate more natural vocal expressions, controlling
+              aspects such as tone and pitch variation.
+            </p>
+          </div>
+          <div class="section">
+            <h3 class="section-header">Characters</h3>
+            <p class="section-text">
+              The software's unique nature and heavy reliance on voice banks led
+              to a unique marketing strategy being developed for them. Each
+              voice bank is marketed as a "singer in a box" or “virtual idol”,
+              complete with an animated character to fit the recorded voice.
+              Most artists who use the software also use these characters to
+              represent their music, even going so far as to animate the
+              characters into their music videos. Additionally, many of the
+              characters' names have transcended the artists' likenesses, much
+              to the dismay of some creators (most notably the late wowaka, who
+              briefly went on a hiatus from creating new Vocaloid music in 2011
+              for this reason). However, this marketing strategy has seen great
+              success in many great varieties -- more about these successes can
+              be found on the "History" page of this site.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="about-body">
+        <h2 class="about-header">How has Vocaloid made an impact?</h2>
+        <div class="grid">
+          <div class="section">
+            <h3 class="section-header">The Music</h3>
+            <p class="section-text">
+              Vocaloid has had a very significant impact on the music industry
+              thus far. It has allowed people who may not have had the
+              opportunity to make music before to create and share their own
+              songs. It has also helped to break down barriers between different
+              cultures and genres of music. In Japan, Vocaloid music has become
+              a major cultural phenomenon. There are now Vocaloid concerts,
+              festivals, and even theme parks. Vocaloid music has also been used
+              in commercials, anime, and video games. This goes without
+              mentioning that many popular Japanese solo artists got their start
+              with Vocaloid music. Some good examples are the artists John (now
+              known as Tooboe), whose song “Tablet” was recently featured as an
+              ending in the anime Chainsaw Man, as well as Eve, whose song
+              “Kaikai Kitan” was featured as the Season 1 opening for the anime
+              Jujutsu Kaisen.It's just cool.
+            </p>
+          </div>
+          <div class="section">
+            <h3 class="section-header">The Events</h3>
+            <p class="section-text">
+              Vocaloid live events typically feature a holographic model
+              vocalist projected onto a screen to make it seem like they are
+              there in person. On the stage with them is a live band as well as
+              back-up dancers in some cases. The first Vocaloid live concert was
+              held in 2004 at the Polyphony Studio 5th Anniversary Concert in
+              Novosibirsk, Russia. It featured the Vocaloid Miriam, who
+              performed the song "Sad Mondays" with live musicians. The first
+              Vocaloid concert in Japan was held in 2009 at Animelo Summer Live,
+              where Hatsune Miku performed the songs "Miku Miku ni Shite Ageru"
+              by Piano Echoes and "Black★Rock Shooter" by Supercell. Since then,
+              there have been many more concerts, both in Japan and around the
+              world. Some of the most popular Vocaloid live concerts include the
+              Hatsune Miku Expo, the Magical Mirai concert series, and the
+              Mikunopolis concert series. Vocaloid live concerts are a popular
+              way for fans to experience the music of their favorite Vocaloids.
+              They are also a great way to introduce new people to Vocaloid
+              music. If you have never been to a Vocaloid live concert, I highly
+              recommend checking one out. It is an experience that you will not
+              soon forget.
+            </p>
+          </div>
+          <div class="section">
+            <h3 class="section-header">Other Media</h3>
+            <p class="section-text">
+              The success of Vocaloid lies not only within the software and its
+              music, but also in the ever-growing community it has spawned. It
+              has influenced various new types of media outside music, such as
+              video games, anime/manga, cosplay, and other forms of art.
+              Vocaloid has spawned a few rhythm games exclusively in its own
+              world, including Project Sekai: COLORFUL STAGE and Hatsune Miku:
+              Project DIVA. The music and voicebanks are often featured in other
+              video games as well, such as the game Yakuza 5 which contains an
+              easter egg that allows your character to wear the costume of
+              Hatsune Miku. (Could you tell they like Miku?) Vocaloid has also
+              made appearances in animated media as well: in the series Bee &
+              Puppycat, the main character Puppycat is voice-acted by Oliver.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="about-body">
+        <h2 class="about-header">How does Vocaloid work?</h2>
+        <div class="grid">
+          <div class="section">
+            <h3 class="section-header">Score Editor</h3>
+            <p class="section-text">
+              Being the most user-facing aspect of Vocaloid, the Score Editor is
+              where the user inputs the notes and corresponding lyrics they
+              would like Vocaloid to sing. This is done by placing the notes
+              onto a grid, where the X axis determines the length of the note
+              and the Y axis determines the pitch. Each note is also assigned a
+              phoneme, or phonetic sound unit – in short, these combine to form
+              the words that are sung with the notes.
+            </p>
+          </div>
+          <div class="section">
+            <h3 class="section-header">Voice Banks</h3>
+            <p class="section-text">
+              A voice bank is a database of samples recorded by a live vocal
+              artist. This includes samples of the singer pronouncing every
+              possible phoneme (phonetic sound unit) in the given language, as
+              well as variant combinations of phonemes, to provide full
+              pronunciation ability. The singer also usually records each
+              phoneme in 3 or 4 different pitches to provide a broad vocal
+              range.
+            </p>
+          </div>
+          <div class="section">
+            <h3 class="section-header">Synthesis Engine</h3>
+            <p class="section-text">
+              The Synthesis Engine is what drives Vocaloid to sound human. Based
+              on the selected note/lyric combinations from the Score Editor,
+              this component selects the best samples from the voice bank to
+              match the given word or syllable. Once the best sample (or
+              combination of samples) have been selected, the engine then
+              matches their pitch to the given note. In short, this component is
+              responsible for turning the user’s input into sound.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

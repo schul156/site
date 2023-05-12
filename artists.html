@@ -1,0 +1,171 @@
+<html>
+  <head>
+    <title>VOCALOID</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/articles.css" />
+  </head>
+  <body>
+    <div class="navbar">
+      <div>
+        <button onclick="showMenu()">
+          <img src="imgs/menu-icon.png" height="40px"
+        </button>
+      </div>
+      <div><a href="index.html">V O C A L O I D</a></div>
+      <div>
+        <button onclick="nextPage()">
+          <img src="imgs/arrowicon.jpg" alt="> History" height="40" />
+        </button>
+      </div>
+      <div id="navmenu">
+        <h1><a href="about.html">ABOUT</a></h1>
+        <h1><a href="history.html">HISTORY</a></h1>
+        <h1><a href="music.html">MUSIC</a></h1>
+        <h1><a href="artists.html">ARTISTS</a></h1>
+        <h1><a href="personas.html">PERSONAS</a></h1>
+      </div>
+    </div>
+    <script>
+      function showMenu() {
+        var x = document.getElementById("navmenu");
+        if (x.style.left === "0px") {
+          x.style.left = "100vw";
+        } else {
+          x.style.left = "0px";
+        }
+      }
+        function nextPage() {
+          const pages = [
+            "/vocaloid-test/about.html",
+            "/vocaloid-test/history.html",
+            "/vocaloid-test/music.html",
+            "/vocaloid-test/artists.html",
+            "/vocaloid-test/personas.html",
+          ];
+          var current = window.location.pathname;
+          console.log("current: ", current);
+          var index = pages.indexOf(current);
+          console.log("index: ", index, " next: ", index+1);
+          console.log("current page: ", pages[index]);
+          console.log("next page: ", pages[index+1]);
+          var page;
+          if (index === pages.length-1) {
+            page = pages[0];
+          } else {
+            page = pages[index+1];
+          }
+          console.log("changing path to:", page);
+          window.location.pathname = page;
+        }
+        function nextPage() {
+          const pages = [
+            "/vocaloid/about.html",
+            "/vocaloid/history.html",
+            "/vocaloid/music.html",
+            "/vocaloid/artists.html",
+            "/vocaloid/personas.html",
+          ];
+          var current = window.location.pathname;
+          console.log("current: ", current);
+          var index = pages.indexOf(current);
+          console.log("index: ", index, " next: ", index+1);
+          console.log("current page: ", pages[index]);
+          console.log("next page: ", pages[index+1]);
+          var page;
+          if (index === pages.length-1) {
+            page = pages[0];
+          } else {
+            page = pages[index+1];
+          }
+          console.log("changing path to:", page);
+          window.location.pathname = page;
+        }
+    </script>
+    <div class="body-container">
+      <h1 class="article-header">◇ARTISTS</h1>
+        <div class="gallery-container artists">
+          <div class="gallery-slide">
+            <h3 class="artist-header">Utsu-P</h3>
+            <a href="https://www.youtube.com/channel/UCkMsHxeWjiHQvhHAs33OCmw" target="_blank">
+              <img src="imgs/artists/UtsuP-pfp.webp" height="200"/>
+            </a>
+            <p><span class="subhead">Years Active:</span> 2008 - Current</p>
+            <p><span class="subhead">Genres:</span> Metal/EDM </p>
+            <p><span class="subhead">Top songs:</span> "Bizarre Food", "Ga [Moth]", "I thought I was an angel"</p>
+          </div>
+          <div class="gallery-slide">
+            <h3 class="artist-header">wowaka</h3>
+            <a href="https://www.youtube.com/channel/UChsXqcSV1YRwQbfHfzCMG2Q" target="_blank">
+              <img src="imgs/artists/Wowaka_icon.webp" height="200"/>
+            </a>
+            <p><span class="subhead">Years Active:</span> 2009-2019 (RIP)</p>
+            <p><span class="subhead">Genres:</span> Alt-rock</p>
+            <p><span class="subhead">Top songs:</span> "Rolling Girl", "Line Art", "Unknown Mother Goose"</p>
+          </div>
+          <div class="gallery-slide">
+            <h3 class="artist-header">kikuo</h3>
+            <a href="https://www.youtube.com/@kikuo_sound" target="_blank">
+              <img src="imgs/artists/Kikuo_icon.webp" height="200"/>
+            </a>
+            <p><span class="subhead">Years Active:</span> 2010 - Current</p> 
+            <p><span class="subhead">Genres:</span> EDM/Experimental</p>
+            <p><span class="subhead">Top songs:</span> "Voices of Svaahaa", "Hole-Dwelling", "Searching For Your Love"</p>
+          </div>
+          <div class="gallery-slide">
+            <h3 class="artist-header">Guchiry</h3>
+            <a href="https://www.youtube.com/@Guchiry" target="_blank">
+              <img src="imgs/artists/Guchiry_icon.webp" height="200"/>
+            </a>
+            <p><span class="subhead">Years Active:</span> 2018 - Current</p>
+            <p><span class="subhead">Genres:</span> EDM/Alt-rock</p>
+            <p><span class="subhead">Top songs:</span> "Abnormality Dancing Girl", "Schadenfreude", "Salvage From Garbage"</p>  
+          </div>
+          <div class="gallery-slide">
+            <h3 class="artist-header">Neru</h3>
+            <a href="https://www.youtube.com/channel/UClxXuM2m0rIL9VCA1ds9HqA" target="_blank">
+              <img src="imgs/artists/Neru_icon.webp" height="200"/>
+            </a>
+            <p><span class="subhead">Years Active:</span> 2009 - Current</p>
+            <p><span class="subhead">Genres:</span> Metal/Alt-rock</p>
+            <p><span class="subhead">Top songs:</span> "Lost One's Weeping", "Roleless Weapon (ft. inabakumori)", "Overslept"</p>
+          </div>
+          <div class="gallery-slide">
+            <h3 class="artist-header">Deco*27</h3>
+            <a href="https://www.youtube.com/@DECO27" target="_blank">
+              <img src="imgs/artists/DECO27_icon.webp" height="200"/>
+            </a>
+            <p><span class="subhead">Years Active:</span> 2008 - Current</p>
+            <p><span class="subhead">Genres:</span> Pop/Alt-rock</p>
+            <p><span class="subhead">Top songs:</span> "Ghost Rule", "HIBANA", "Chimera"</p>
+          </div>
+          <div class="gallery-slide">
+            <h3 class="artist-header">MARETU</h3>
+            <a href="https://www.youtube.com/channel/UCmj0YkPwo47bPoBt9ma-bxg" target="_blank">
+              <img src="imgs/artists/Maretu_icon.webp" height="200"/>
+            </a>
+            <p><span class="subhead">Years Active:</span> 2011 - Current</p>
+            <p><span class="subhead">Genres:</span> Metal/Alternative</p>
+            <p><span class="subhead">Top songs:</span> "Mind Brand", "Sanjyou [Wretched Place]", "Born Before"</p> 
+          </div>
+          <div class="gallery-slide">
+            <h3 class="artist-header">inabakumori</h3>
+            <a href="https://www.youtube.com/channel/UCNElM45JypxqAR73RoUQ10g" target="_blank">
+              <img src="imgs/artists/inabakumori_icon.webp"/>
+            </a>
+            <p><span class="subhead">Years Active:</span> 2017 - Current</p>
+            <p><span class="subhead">Genres:</span> Alt-rock/Pop</p>
+            <p><span class="subhead">Top songs:</span> "Haru no Sekibaku [Desolation of Spring]", "Lagtrain", "Floatplay"</p>
+          </div>
+          <div class="gallery-slide">
+            <h3 class="artist-header">Azari</h3>
+            <a href="https://www.youtube.com/@xxxAzari" target="_blank">
+              <img src="imgs/artists/Azari_icon.webp" height="200"/>
+            </a>
+            <p><span class="subhead">Years Active:</span> 2021 - Current</p>
+            <p><span class="subhead">Genres:</span> EDM</p>
+            <p><span class="subhead">Best songs:</span> "Whisper Whisper Whisper", "Who?", "Black Out"</p>
+          </div>
+        </div>
+    </div>
+  </body>
+</html>

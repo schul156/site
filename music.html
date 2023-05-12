@@ -1,0 +1,206 @@
+<html>
+  <head>
+    <title>VOCALOID</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/articles.css" />
+  </head>
+  <body>
+    <div class="navbar">
+      <div>
+        <button onclick="showMenu()">
+          <img src="imgs/menu-icon.png" height="40px"
+        </button>
+      </div>
+      <div><a href="index.html">V O C A L O I D</a></div>
+      <div>
+        <button onclick="nextPage()">
+          <img src="imgs/arrowicon.jpg" alt="> History" height="40" />
+        </button>
+      </div>
+      <div id="navmenu">
+        <h1><a href="about.html">ABOUT</a></h1>
+        <h1><a href="history.html">HISTORY</a></h1>
+        <h1><a href="music.html">MUSIC</a></h1>
+        <h1><a href="artists.html">ARTISTS</a></h1>
+        <h1><a href="personas.html">PERSONAS</a></h1>
+      </div>
+    </div>
+    <script>
+      function showMenu() {
+        var x = document.getElementById("navmenu");
+        if (x.style.left === "0px") {
+          x.style.left = "100vw";
+        } else {
+          x.style.left = "0px";
+        }
+      }
+      function nextPage() {
+        const pages = [
+          "/vocaloid/about.html",
+          "/vocaloid/history.html",
+          "/vocaloid/music.html",
+          "/vocaloid/artists.html",
+          "/vocaloid/personas.html",
+        ];
+        var current = window.location.pathname;
+        console.log("current: ", current);
+        var index = pages.indexOf(current);
+        console.log("index: ", index, " next: ", index+1);
+        console.log("current page: ", pages[index]);
+        console.log("next page: ", pages[index+1]);
+        var page;
+        if (index === pages.length-1) {
+          page = pages[0];
+        } else {
+          page = pages[index+1];
+        }
+        console.log("changing path to:", page);
+        window.location.pathname = page;
+      }
+    </script>
+    <div class="body-container">
+      <h1 class="article-header">◇MUSIC</h1>
+      <div class="music">
+      <div class="about-body">
+        <h2 class="music-header">wowaka - "Rolling Girl" (2010)</h2>
+        <iframe
+          width="100%"
+          height="352"
+          src="https://www.youtube.com/embed/vnw8zURAxkU"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+        <div>
+          <p class="review-text">
+            Widely regarded as one of the most well-known Vocaloid songs,
+            “Rolling Girl” brings out many of the late Wowaka’s best elements in
+            song form. The atmosphere sets a very outwardly upbeat tone while
+            retaining a deep sadness behind it. This is complemented by the
+            lyrics, which detail the story of a girl who struggles to continue
+            “rolling” in the face of failure. Alongside its addictive melodies
+            and energetic pace, many listeners also find themselves resonating
+            with the lyrics, which helped add to this song’s success and
+            memorability.
+          </p>
+        </div>
+      </div>
+      <div class="about-body">
+        <h2 class="music-header">Patterns - "ATARAXIA" (2022)</h2>
+        <iframe
+          style="border-radius: 12px;"
+          src="https://open.spotify.com/embed/track/0bevUQP600u2psHdSWljCC?utm_source=generator"
+          width="100%"
+          height="352"
+          frameborder="0"
+          allowfullscreen=""
+          allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+          loading="lazy"
+        ></iframe>
+        <p class="review-text">
+          Patterns, also known as Pretty Patterns Inc., is an up-and-coming
+          producer from France who has only recently begun exploring the
+          capabilities of vocal synth. While they use the SynthesizerV engine as
+          opposed to the Vocaloid engine, “ATARAXIA” is as beautiful of a song
+          as it is innovative with the use of vocal synthesis. Utilizing the
+          voicebank of Eleanor Forte, Patterns creates an elegant musical
+          atmosphere with this song that accompanies their voice perfectly.
+        </p>
+      </div>
+      <div class="about-body">
+        <h2 class="music-header">Porter Robinson - "Sad Machine" (2014)</h2>
+        <iframe
+          style="border-radius: 12px;"
+          src="https://open.spotify.com/embed/track/1JY6B9ILvmRla2IKKRZvnH?utm_source=generator"
+          width="100%"
+          height="352"
+          frameborder="0"
+          allowfullscreen=""
+          allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+          loading="lazy"
+        ></iframe>
+        <p class="review-text">
+          On his debut album “Worlds”, Porter Robinson took EDM in a different
+          direction by blending new elements from other genres into his sound to
+          create a dreamy, futuristic feel. The song “Sad Machine”, which
+          lyrically details the story of a humanoid robot longing for human
+          connection, features a duet between Robinson and the voicebank of
+          Avanna. The use of Vocaloid, as well as his distinct processing and
+          mixing with the other synth elements, greatly add to the overall theme
+          and create an ethereal listening experience.
+        </p>
+      </div>
+      <div class="about-body">
+        <h2 class="music-header">Utsu-P - "Ga [Moth]"(2022)</h2>
+        <iframe
+          style="border-radius: 12px;"
+          src="https://open.spotify.com/embed/track/1zOMyJvyWjdAui9OwWEEfL?utm_source=generator"
+          width="100%"
+          height="352"
+          frameborder="0"
+          allowfullscreen=""
+          allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+          loading="lazy"
+        ></iframe>
+        <p class="review-text">
+          With the invention of Vocaloid, it was only a matter of time before
+          someone out there tried to make it do metal vocals – and thus, Utsu-P
+          was born. While Utsu-P is not the only artist to attempt this, he is
+          the most well-known and most prolific to do so, with over 14 released
+          albums to date and more to come. Being one of his most recent works,
+          “Ga” shows Utsu-P’s true capabilities with Vocaloid – his signature
+          blend of EDM and metal instrumentations combine perfectly with the
+          wide range of modulation and effects now possible through the
+          software. The harsh vocals at the end also show great improvement over
+          his previous works.
+        </p>
+      </div>
+      <div class="about-body">
+        <h2 class="music-header">Hachi - "Matryoshka" (2014)</h2>
+        <iframe
+          style="border-radius: 12px;"
+          src="https://open.spotify.com/embed/track/74A5fPLR86U9XWYostkXwS?utm_source=generator"
+          width="100%"
+          height="352"
+          frameborder="0"
+          allowfullscreen=""
+          allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+          loading="lazy"
+        ></iframe>
+        <p class="review-text">
+          Hachi is an artist who may have a familiar sound if you’ve seen
+          Chainsaw Man. He’s since moved away from working with Vocaloid to
+          focus on writing solo music, however his work as Hachi was met with
+          wild success. Hachi is often known for writing songs with abstract and
+          surreal meanings, and “Matryoshka” is a perfect example of that. The
+          song’s lyrics, while very well-constructed, don’t actually mean
+          anything – much like a matryoshka doll, whose many layers only contain
+          hot air. The music itself carries a chaotic and upbeat feeling,
+          accompanied by entrancing melodies.
+        </p>
+      </div>
+      <div class="about-body">
+        <h2 class="music-header">sasakure.UK - "FUTURE EVE" (2022)</h2>
+        <iframe
+          style="border-radius: 12px;"
+          src="https://open.spotify.com/embed/track/4QQJsHq3lyQ0Tj8UI9VVWf?utm_source=generator"
+          width="100%"
+          height="352"
+          frameborder="0"
+          allowfullscreen=""
+          allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+          loading="lazy"
+        ></iframe>
+        <p class="review-text">
+          Sasakure.UK has been considered a pioneer in the Vocaloid community
+          since his debut in early 2007, earning him somewhat of an “underground
+          classic” status. The song “Future Eve” shows Sasakure.UK’s incredible
+          ability to blend elements of rock and electronic music, as well as
+          write deep and thought-provoking lyrics.
+        </p>
+      </div>
+    </div>
+    </div>
+  </body>
+</html>
